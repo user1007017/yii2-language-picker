@@ -1,6 +1,6 @@
 <?php
 
-namespace lajax\languagepicker;
+namespace user1007017\languagepicker;
 
 use Yii;
 
@@ -16,7 +16,7 @@ use Yii;
  * 'bootstrap' => ['languagepicker'],
  * 'components' => [
  *      'languagepicker' => [
- *          'class' => 'lajax\languagepicker\Component',
+ *          'class' => 'user1007017\languagepicker\Component',
  *          'languages' => ['en', 'de', 'fr']               // List of available languages
  *      ]
  * ],
@@ -29,7 +29,7 @@ use Yii;
  * 'bootstrap' => ['languagepicker'],
  * 'components' => [
  *      'languagepicker' => [
- *          'class' => 'lajax\languagepicker\Component',
+ *          'class' => 'user1007017\languagepicker\Component',
  *          'languages' => ['en-US', 'de-DE', 'fr-FR'],     // List of available languages
  *          'cookieName' => 'language',                     // Name of the cookie.
  *          'cookieDomain' => 'example.com',                // Domain of the cookie.
@@ -46,7 +46,7 @@ use Yii;
  * ~~~
  * 
  *
- * @author Lajos Molnar <lajax.m@gmail.com>
+ * @author Lajos Molnar <user1007017.m@gmail.com>
  * @since 1.0
  */
 class Component extends \yii\base\Component

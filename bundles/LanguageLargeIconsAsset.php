@@ -1,12 +1,12 @@
 <?php
 
-namespace lajax\languagepicker\bundles;
+namespace user1007017\languagepicker\bundles;
 
 use yii\web\AssetBundle;
 
 /**
  * LanguageLargeIcons asset bundle
- * @author Lajos Molnár <lajax.m@gmail.com>
+ * @author Lajos Molnár <user1007017.m@gmail.com>
  * @since 1.0
  */
 class LanguageLargeIconsAsset extends AssetBundle {
@@ -14,7 +14,7 @@ class LanguageLargeIconsAsset extends AssetBundle {
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@vendor/lajax/yii2-language-picker/assets';
+    public $sourcePath = '@vendor/user1007017/yii2-language-picker/assets';
 
     /**
      * @inheritdoc

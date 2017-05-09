@@ -1,6 +1,6 @@
 /** 
  * Created on : 2014.08.24., 5:26:26
- * Author     : Lajos Molnar <lajax.m@gmail.com>
+ * Author     : Lajos Molnar <user1007017.m@gmail.com>
  */
 $(document).ready(function () {
     LanguagePicker.init();

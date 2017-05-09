@@ -1,18 +1,18 @@
 {
-    "name": "lajax/yii2-language-picker",
+    "name": "user1007017/yii2-language-picker",
     "description": "Yii2 Language Picker Widget",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","widget","languagepicker","translate","multilanguage","sample"],
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Lajos Molnar",
-            "email": "lajax.m@gmail.com"
+            "name": "Yoda",
+            "email": "user1007017@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "lajax\\languagepicker\\": ""
+            "user1007017\\languagepicker\\": ""
         }
     },
     "require": {
