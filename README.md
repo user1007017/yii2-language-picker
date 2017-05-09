@@ -202,9 +202,9 @@ Usage
     echo Nav::widget($aNavOptionsTop);
     
     //---------------------------LANGUAGE PICKER ---------------------------------------------
-    echo  \lajax\languagepicker\widgets\LanguagePicker::widget([
-        'skin' => \lajax\languagepicker\widgets\LanguagePicker::SKIN_BUTTON,
-        'size' => \lajax\languagepicker\widgets\LanguagePicker::SIZE_SMALL,
+    echo  \user1007017\languagepicker\widgets\LanguagePicker::widget([
+        'skin' => \user1007017\languagepicker\widgets\LanguagePicker::SKIN_BUTTON,
+        'size' => \user1007017\languagepicker\widgets\LanguagePicker::SIZE_SMALL,
         'itemTemplate' => '<a href="{link}" title="{language}"> {name}</a>',
         //hide active language (display:none):
         'activeItemTemplate' => '<a style="display:none" href="{link}" title="{language}" class="active"></a>',
