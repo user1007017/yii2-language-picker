@@ -29,12 +29,12 @@ or add
 
 to the require section of your `composer.json` file.
 
-##Config:
+## Config:
 
 Identifier of the language element. e.g.: en, en-US
 
 
-####Minimal configuration (icons only)
+#### Minimal configuration (icons only)
 
 ```php
 'language' => 'en',
@@ -47,7 +47,7 @@ Identifier of the language element. e.g.: en, en-US
 ],
 ```
 
-####Minimal configuration (icons and text)
+#### Minimal configuration (icons and text)
 
 ```php
 'language' => 'en',
@@ -60,7 +60,7 @@ Identifier of the language element. e.g.: en, en-US
 ],
 ```
 
-####Full configuration (icons only)
+#### Full configuration (icons only)
 
 ```php
 'language' => 'en-US',
@@ -83,9 +83,9 @@ Identifier of the language element. e.g.: en, en-US
 ],
 ```
 
-###Yii2-translate-manager integration
+### Yii2-translate-manager integration
 
-####Minimal configuration (icons only)
+#### Minimal configuration (icons only)
 
 ```php
 'language' => 'en',
@@ -100,7 +100,7 @@ Identifier of the language element. e.g.: en, en-US
 ],
 ```
 
-####Full configuration (icons and text)
+#### Full configuration (icons and text)
 
 ```php
 'language' => 'en-US',
@@ -125,7 +125,7 @@ Identifier of the language element. e.g.: en, en-US
 ],
 ```
 
-####IMPORTANT
+#### IMPORTANT
 
 To use the widget, the value of the enablePrettyUrl property in the urlManager configuration must be true, and the value of showScriptName false.
 
@@ -151,9 +151,9 @@ Using of [urlManager](http://www.yiiframework.com/doc-2.0/yii-web-urlmanager.htm
 Usage
 -----
 
-##Displaying language selector
+## Displaying language selector
 
-####Displaying pre-defined languate picker buttons (icons and text or icons only):
+#### Displaying pre-defined languate picker buttons (icons and text or icons only):
 
 ```php
 <?= \user1007017\languagepicker\widgets\LanguagePicker::widget([
@@ -162,7 +162,7 @@ Usage
 ]); ?>
 ```
 
-####Displaying pre-defined languate picker dropdown list (icons and text or icons only):
+#### Displaying pre-defined languate picker dropdown list (icons and text or icons only):
 
 ```php
 <?= \user1007017\languagepicker\widgets\LanguagePicker::widget([
@@ -172,7 +172,7 @@ Usage
 ```
 
 
-####Customising the language picker:
+#### Customising the language picker:
 
 ```php
 <?= \user1007017\languagepicker\widgets\LanguagePicker::widget([
@@ -184,7 +184,7 @@ Usage
 ]); ?>
 ```
 
-#####Other Example hiding active Language
+#### Other Example hiding active Language
     
     NavBar::begin([
         'brandLabel' => Html::img('@web/css/images/logo.png', ['class' => 'img-responsive','alt' => Yii::$app->name]),
@@ -221,27 +221,27 @@ Usage
 Screenshots
 -----------
 
-###Buttons icons and text
+### Buttons icons and text
 ![language-picker-0 2-screen-1](https://res.cloudinary.com/user1007017/image/upload/v1423590800/button-icons-and-text_aa8mbp.png)
 
 
-###Buttons icons only
+### Buttons icons only
 ![language-picker-0 2-screen-2](http://res.cloudinary.com/user1007017/image/upload/v1423590803/button-icons-only_lrlis1.png)
 
 
-###Buttons text only
+### Buttons text only
 ![language-picker-0 2-screen-3](https://res.cloudinary.com/user1007017/image/upload/v1423998965/button-text-only_zadyvo.png)
 
 
-###DropDown icons and text
+### DropDown icons and text
 ![language-picker-0 2-screen-4](https://res.cloudinary.com/user1007017/image/upload/v1423508826/dropdown-icons-and-text_lghe8v.png)
 
 
-###DropDown icons only
+### DropDown icons only
 ![language-picker-0 2-screen-5](https://res.cloudinary.com/user1007017/image/upload/v1423508826/dropdown-icons-only_vzqksl.png)
 
 
-###DropDown text only
+### DropDown text only
 ![language-picker-0 2-screen-5](https://res.cloudinary.com/user1007017/image/upload/v1423999486/dropdown-text-only_kp0lyt.png)
 
 
